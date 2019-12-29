@@ -67,5 +67,5 @@ class Solver(object):
         )
 
         with open(join(self.save_dir, "train_log.pkl"), "wb") as f:
-            pickle.dump(history.hitory, f)
+            pickle.dump(history.history, f)
 
